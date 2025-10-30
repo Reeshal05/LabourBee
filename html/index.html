@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Labour Bee connects households with trusted local service providers. Find electricians, plumbers, painters, and more in your neighborhood.">
+    <meta name="keywords" content="local services, electrician, plumber, painter, home services, Mangaluru">
+    <title>Labour Bee - Your Neighborhood Helpers 🐝</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg class="bee-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="50" cy="55" rx="25" ry="30" fill="#FDB833"/>
+                    <rect x="40" y="45" width="20" height="4" fill="#2B2D42"/>
+                    <rect x="40" y="55" width="20" height="4" fill="#2B2D42"/>
+                    <rect x="40" y="65" width="20" height="4" fill="#2B2D42"/>
+                    <circle cx="42" cy="35" r="3" fill="#2B2D42"/>
+                    <circle cx="58" cy="35" r="3" fill="#2B2D42"/>
+                    <path d="M30 45 Q20 35 25 25" stroke="#06BEE1" stroke-width="3" fill="none" opacity="0.7"/>
+                    <path d="M70 45 Q80 35 75 25" stroke="#06BEE1" stroke-width="3" fill="none" opacity="0.7"/>
+                    <circle cx="50" cy="30" r="15" fill="#FDB833"/>
+                </svg>
+                <span>Labour Bee</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Neighborhood Helpers 🐝</h1>
+            <p>One buzz away from connecting with trusted local service providers!</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="scrollToSection('services')">Find a Helper</button>
+                <a href="contact.html" class="btn-secondary">Become a Provider</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title">How Can We Help? 🛠️</h2>
+        <p class="section-subtitle">Our hive of talented workers is ready to assist you</p>
+        <div class="service-grid">
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Electrical</h3>
+                <p>Licensed electricians for repairs, installations, and upgrades</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>Plumbing</h3>
+                <p>Fast and reliable plumbing services for all your needs</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Painting</h3>
+                <p>Professional painters to beautify your space</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔨</div>
+                <h3>Carpentry</h3>
+                <p>Skilled carpenters for furniture and home repairs</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌱</div>
+                <h3>Gardening</h3>
+                <p>Green thumbs to keep your garden thriving</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">✨</div>
+                <h3>Cleaning</h3>
+                <p>Thorough cleaning services for homes and offices</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="providers">
+        <h2 class="section-title">Meet Our Worker Bees 🐝</h2>
+        <p class="section-subtitle">Trusted professionals in your neighborhood</p>
+        <div class="provider-grid">
+            <div class="provider-card">
+                <div class="provider-header">
+                    <div class="provider-avatar">⚡</div>
+                    <div class="provider-name">Raj Kumar</div>
+                    <div class="provider-role">Master Electrician</div>
+                </div>
+                <div class="provider-body">
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">4.9</span>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Wiring</span>
+                        <span class="tag">Lighting</span>
+                        <span class="tag">Safety</span>
+                    </div>
+                    <button class="provider-btn">Book Now</button>
+                </div>
+            </div>
+
+            <div class="provider-card">
+                <div class="provider-header">
+                    <div class="provider-avatar">🔧</div>
+                    <div class="provider-name">Priya Singh</div>
+                    <div class="provider-role">Expert Plumber</div>
+                </div>
+                <div class="provider-body">
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">5.0</span>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Repairs</span>
+                        <span class="tag">Installation</span>
+                        <span class="tag">24/7</span>
+                    </div>
+                    <button class="provider-btn">Book Now</button>
+                </div>
+            </div>
+
+            <div class="provider-card">
+                <div class="provider-header">
+                    <div class="provider-avatar">🎨</div>
+                    <div class="provider-name">Arjun Patel</div>
+                    <div class="provider-role">Professional Painter</div>
+                </div>
+                <div class="provider-body">
+                    <div class="rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">4.8</span>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Interior</span>
+                        <span class="tag">Exterior</span>
+                        <span class="tag">Design</span>
+                    </div>
+                    <button class="provider-btn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title">Why Choose Labour Bee? 💛</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <div class="feature-icon">🛡️</div>
+                <h3>Verified Pros</h3>
+                <p>All service providers are background-checked and verified</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">💰</div>
+                <h3>Fair Pricing</h3>
+                <p>Transparent rates with no hidden fees or surprises</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">⚡</div>
+                <h3>Quick Response</h3>
+                <p>Get matched with available helpers in minutes</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">❤️</div>
+                <h3>Community First</h3>
+                <p>Supporting local workers and building neighborhoods</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-bee">🐝</div>
+        <p>© 2024 Labour Bee - Built with 💛 for our community</p>
+        <p style="margin-top: 8px; font-size: 14px;">Connecting neighbors, one buzz at a time</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Labour Bee - Get in touch with us for service inquiries, provider registration, or customer support.">
+    <title>Contact Us - Labour Bee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg class="bee-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="50" cy="55" rx="25" ry="30" fill="#FDB833"/>
+                    <rect x="40" y="45" width="20" height="4" fill="#2B2D42"/>
+                    <rect x="40" y="55" width="20" height="4" fill="#2B2D42"/>
+                    <rect x="40" y="65" width="20" height="4" fill="#2B2D42"/>
+                    <circle cx="42" cy="35" r="3" fill="#2B2D42"/>
+                    <circle cx="58" cy="35" r="3" fill="#2B2D42"/>
+                    <path d="M30 45 Q20 35 25 25" stroke="#06BEE1" stroke-width="3" fill="none" opacity="0.7"/>
+                    <path d="M70 45 Q80 35 75 25" stroke="#06BEE1" stroke-width="3" fill="none" opacity="0.7"/>
+                    <circle cx="50" cy="30" r="15" fill="#FDB833"/>
+                </svg>
+                <span>Labour Bee</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">☰</button>
+        </nav>
+    </header>
+
+    <section class="page-hero">
+        <h1>Get In Touch 📧</h1>
+        <p>We'd love to hear from you!</p>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p style="margin-bottom: 32px; opacity: 0.8;">Have a question? We're here to help! Reach out to us through any of these channels.</p>
+                
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h3>Address</h3>
+                        <p>123 Bee Street, Hive Building<br>Mangaluru, Karnataka 575001<br>India</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+91 98765 43210<br>+91 87654 32109</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">✉️</div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>hello@labourbee.com<br>support@labourbee.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">🕒</div>
+                    <div>
+                        <h3>Working Hours</h3>
+                        <p>Monday - Saturday: 8:00 AM - 8:00 PM<br>Sunday: 10:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">💬</div>
+                    <div>
+                        <h3>Social Media</h3>
+                        <p>Follow us for updates and tips!<br>@labourbee on all platforms</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <h2>Send Us a Message 💌</h2>
+                <p style="margin-bottom: 24px; opacity: 0.8;">Fill out the form below and we'll get back to you as soon as possible!</p>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a topic</option>
+                            <option value="service">Book a Service</option>
+                            <option value="provider">Become a Provider</option>
+                            <option value="support">Customer Support</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="partnership">Partnership Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Send Message 🐝</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2 class="section-title">Frequently Asked Questions 🤔</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How do I book a service?</h3>
+                    <p>Simply browse our services, select the one you need, choose a provider, and click "Book Now". You can also contact us directly for assistance.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are all providers verified?</h3>
+                    <p>Yes! Every service provider on Labour Bee undergoes thorough background checks and skill verification before being approved.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What if I'm not satisfied with the service?</h3>
+                    <p>We have a satisfaction guarantee. Contact our support team within 24 hours, and we'll work to resolve any issues or arrange a re-service.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How can I become a service provider?</h3>
+                    <p>Fill out the contact form above with "Become a Provider" selected, or email us at hello@labourbee.com with your details and qualifications.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What payment methods do you accept?</h3>
+                    <p>We accept all major credit/debit cards, UPI, net banking, and digital wallets for your convenience.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer emergency services?</h3>
+                    <p>Yes! We have 24/7 emergency services available for electrical, plumbing, and other urgent needs. Call us anytime!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="map-container">
+            <h2 class="section-title">Find Us Here 📍</h2>
+            <div class="map-placeholder">
+                <p>🗺️ Map will be displayed here</p>
+                <p style="font-size: 14px; margin-top: 8px; opacity: 0.7;">
+                    To add Google Maps: Replace this with an iframe embed code from Google Maps
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-bee">🐝</div>
+        <p>© 2024 Labour Bee - Built with 💛 for our community</p>
+        <p style="margin-top: 8px; font-size: 14px;">Connecting neighbors, one buzz at a time</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
